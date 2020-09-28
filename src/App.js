@@ -4,7 +4,7 @@ import TodoCheckBoxes from './TodoCheckBoxes'
 class App extends Component {
   render() {
     return (
-      <div>
+      <div >
         <TodoCheckBoxes />
       </div>
     )

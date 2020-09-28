@@ -4,7 +4,7 @@ import CheckBox from './CheckBox'
 class TodoCheckBoxes extends Component {
   render() {
     return (
-      <div>
+      <div className ='todo-list'>
         <CheckBox />
         <CheckBox />
         <CheckBox />

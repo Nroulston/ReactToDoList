@@ -4,7 +4,7 @@ class CheckBox extends Component {
   render() {
     return (
       <div>
-        <input type="checkbox"/>
+        <input className='todo-item' type="checkbox"/>
         <p>placeholder text</p>
       </div>
     )
