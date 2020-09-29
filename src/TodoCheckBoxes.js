@@ -3,11 +3,17 @@ import CheckBox from './CheckBox'
 import todosData from './todosData'
 
 class TodoCheckBoxes extends Component {
+  constructor() {
+    super()
+    this.state = {
+      todos: todosData
+  }
+
   
   
 
   render() {
-    const todos = todosData.map( todo => <CheckBox key={todo.id} todo={todo} />)
+   const todos = this.state.todos.map( todo => <CheckBox key={todo.id} todo={todo} />)
     return (
       <div className ='todo-list'>
         {todos}
