@@ -2,10 +2,17 @@ import React, { Component } from 'react'
 
 class CheckBox extends Component {
  
+ 
+
   render() {
     return (
       <div className='todo-item'>
-        <input  type="checkbox" checked={this.props.todo.completed}/>
+        <input  
+          onChange={ () => this.props.handleChange(this.props.todo.id)} 
+          type="checkbox" 
+          checked={this.props.todo.completed}
+          //onChange={event => props.handleChange(e)} if you don't have access to the event in the handle change function.
+        />
         <p>{this.props.todo.text}</p>
       </div>
     )

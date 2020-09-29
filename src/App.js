@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TodoCheckBoxes from './TodoCheckBoxes'
-import todosData from './todosData'
+
 /*
 Let's practice props and mapping components on our todo list app!
 
