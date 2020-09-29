@@ -17,7 +17,7 @@ class TodoCheckBoxes extends Component {
       const updatedTodos = prevState.todos.map(todo => {
         if (todo.id === id) {
           todo = {...todo, completed: !todo.completed}
-          todo.completed = !todo.completed
+          
         }
         return todo
         

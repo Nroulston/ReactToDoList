@@ -3,6 +3,12 @@ body {
   background-color: whitesmoke;
 }
 
+.completedStyle{
+  font-style: italic;
+  color: #cdcdcd;
+  text-decoration: line-through;
+}
+
 .todo-list {
   background-color: white;
   margin: auto;
